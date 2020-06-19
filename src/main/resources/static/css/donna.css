@@ -1,0 +1,10 @@
+:root {
+    --body-bg: #c08ee5;
+}
+
+body{ background-color: var(--body-bg);}
+
+#card{
+    display: flex;
+    justify-content: center;
+}

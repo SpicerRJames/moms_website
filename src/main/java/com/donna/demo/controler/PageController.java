@@ -11,4 +11,10 @@ public class PageController {
         return "index.html";
     }
 
+    @GetMapping("/about")
+    public String aboutPage(){
+        return "about.html";
+    }
+
+
 }
