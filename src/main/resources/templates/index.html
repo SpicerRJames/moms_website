@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home Page</title>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"></html>
+<head th:replace="partials/partials :: head ('Home Page')"></head>
 
-    </head>
-    <body>
-
-        <p>This is a test of the controler</p>
-        
-    </body>
+<body>
+<nav th:replace="partials/partials :: navbar"></nav>
+   
+<p>This is a test of the controler</p>
+     
+</body>
 </html>
