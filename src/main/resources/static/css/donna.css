@@ -2,8 +2,11 @@
     --body-bg: #c08ee5;
 } */
 
-html { 
-    size: 100%;
+.background { 
+    
+    height: 100vh;
+    width: 100%;
+    position: relative;
     background-image: url("../images/supreme-court.webp");
     background-repeat: no-repeat;
     background-size: cover;
