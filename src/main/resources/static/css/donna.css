@@ -1,6 +1,19 @@
-:root {
+/* :root {
     --body-bg: #c08ee5;
+} */
+
+html { 
+    size: 100%;
+    background-image: url("../images/supreme-court.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
 
-body{ background-color: var(--body-bg);}
-
+/* html { 
+    background-image: url("../images/supreme-court.webp") no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+} */
