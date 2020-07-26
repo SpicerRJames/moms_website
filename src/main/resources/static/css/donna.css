@@ -10,9 +10,6 @@
 
 .background:before {
     background: url("../images/supreme-court.webp");
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover; */
     content: "";
     z-index: -1;
     position: absolute;
