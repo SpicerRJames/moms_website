@@ -16,6 +16,10 @@ public class PageController {
         return "about.html";
     }
 
+    @GetMapping("/pricing")
+    public String pricingPage(){
+        return "pricing.html";
+    }
     
 
 }
